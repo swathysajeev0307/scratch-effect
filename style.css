@@ -1,0 +1,45 @@
+/* COPYRIGHT (C) 2024 - SWATHYMOL SAJEEV | GNU General Public License v3.0
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, 
+either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; 
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: 30px 30px;
+    cursor: grab;
+}
+
+span{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    pointer-events: none;
+    background: url("/images/img1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer {
+    font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
