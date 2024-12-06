@@ -27,7 +27,7 @@ span{
     height: 50px;
     background: #fff;
     pointer-events: none;
-    background: url("/images/img1.jpg");
+    background: url("img1.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
